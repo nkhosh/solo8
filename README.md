@@ -15,6 +15,11 @@ Reference Motion Used for "Walking Back and Forth" Task
 
 https://user-images.githubusercontent.com/5961296/146656060-64fa0132-ea88-4992-b02a-13715e3bcaad.mp4
 
+## 3.1 Motion Diversity
+Standing in place with an initial jump
+
+https://user-images.githubusercontent.com/5961296/146664181-09c668a2-41b3-4166-a59c-e231e94f7a45.mp4
+
 ## 3.2 Observation Ablation
 Full Observation
 
@@ -37,6 +42,13 @@ https://user-images.githubusercontent.com/5961296/146656195-4251fc0b-8095-4d1f-a
 Phase Only
 
 https://user-images.githubusercontent.com/5961296/146656198-577b9592-d051-4760-937f-d68818b83f28.mp4
+
+## 4.1 Motion Diversity Discussion
+
+Failed attempt at walking motion
+
+https://user-images.githubusercontent.com/5961296/146664229-25dea2c9-d8f7-403b-957a-c00bf75cc088.mp4
+
 
 ## 4.3.2 Tuning of Rewards vs Termination Conditions
 
