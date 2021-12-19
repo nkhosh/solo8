@@ -1,25 +1,435 @@
 <!DOCTYPE html>
 <html>  
+
 <body>
+    <h1>CPSC 533V Term Project: Deep Reinforcement Learning for the Open Dynamic Robot Initiative Solo 8 Robot</h1>
+    <p>Yuni Fuchioka, Dylan Green, Niloofar Khoshsiyar</p>
+    <p>University of British Columbia</p>
+    <p>CPSC 533V 2021W Course Project</p>
+
+    <h2>Supplementary Materials</h2>
+
+    <h3>2.6 Experiment 2: Observation Ablation</h3>
+
     <STYLE type="text/css">
         H1 { text-align: center}
+        H2 { text-align: left}
+        H3 { text-align: left}
+        H2 { text-align: left}
         BODY {text-align: center}
+        SUMMARY {text-align : left}
     </STYLE>
         <div id="page-wrap">
 
-        <details open="" class="details-reset border rounded-2">
+    <details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="walking back and forth"\>Reference Motion Used for "Walking Back and Forth" Task</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+    
+        <video src="https://user-images.githubusercontent.com/5961296/146656060-64fa0132-ea88-4992-b02a-13715e3bcaad.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>
+
+    
+    <h3>3.1 Motion Diversity</h3>        
+            
+            
+    <details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Standing in place with an initial jump"\>Standing in place with an initial jump</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+    
+        <video src="https://user-images.githubusercontent.com/5961296/146664181-09c668a2-41b3-4166-a59c-e231e94f7a45.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>
+            
+    <details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Walking backwards"\>Walking backwards</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146664196-27c51e50-e850-457e-8021-8805bbbcef7f.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>   
+        
+    <details open="" >
             <summary class="px-3 py-2 border-bottom">
             <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
             <path fill-rule="evenodd" d="..."></path>
-        </svg>
-            <span aria-label="Video description dotnet-evergreen.mp4" class="m-1">dotnet-evergreen.mp4</span>
+            </svg>
+            <span aria-label="Walking in place"\>Walking in place</span>
             <span class="dropdown-caret"></span>
             </summary>
-        
-            <video src="https://user-images.githubusercontent.com/5961296/146656060-64fa0132-ea88-4992-b02a-13715e3bcaad.mp4" data-canonical-src="https://user-images.githubusercontent.com/5961296/146656060-64fa0132-ea88-4992-b02a-13715e3bcaad.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
-        
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146664189-1b2e9834-0555-43c9-b80d-9700feef4265.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
             </video>
-        </details>
+        </details><br>   
+            
+             
+    <h3>3.2 Observation Ablation</h3>
+    
+    <details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Full Observation"\>Full Observation</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656191-aea90a4f-641e-42a7-b709-12854dfda926.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>         
+    
+    <details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Phase and Joint"\>Phase and Joint</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656193-29f485a1-c5f5-4927-9de5-b7081f5a4b0e.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>     
+            
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Phase and IMU"\>Phase and IMU</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146656195-4251fc0b-8095-4d1f-a58e-3d759bd9e1c6.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>         
+            
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Phase Only"\>Phase Only</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146656198-577b9592-d051-4760-937f-d68818b83f28.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>       
+            
+<h3>4.1 Motion Diversity Discussion</h3>
+            
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Failed attempt at walking motion"\>Failed attempt at walking motion</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146664229-25dea2c9-d8f7-403b-957a-c00bf75cc088.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>             
+            
+            
+<h3>4.3.2 Tuning of Rewards vs Termination Conditions</h3>
+    
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Unsuccessful Policy with Poorly Tuned Rewards"\>Unsuccessful Policy with Poorly Tuned Rewards</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656567-5630b5df-3bfc-4a39-ad8e-de1de2ff8b3f.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br> 
+    
+        
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Successful Policy Through Tuning Position Rewards"\>Successful Policy Through Tuning Position Rewards</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656568-69c9613f-edd5-4267-b048-bf197d41178c.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br> 
+            
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Improved Policy with Position Error Termination"\>Improved Policy with Position Error Termination</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656571-0787bf44-3894-4109-b8f2-2afe07f32180.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br> 
+    
+    
+<h3>4.3.3 Incorrect Use of Regularization Rewards</h3>
+                
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Step in Place Motion with Torque Maximization Regularization (Bug)"\>"Step in Place" Motion with Torque Maximization Regularization (Bug)</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656575-6e96e557-17dd-4d58-8f59-418fee5a6ce0.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br> 
+    
+                    
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Walk Back and Forth Motion with Torque Maximization Regularization (Bug)"\>"Walk Back and Forth" Motion with Torque Maximization Regularization (Bug)</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656578-f30e186d-b817-4b03-8738-24c368836396.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br> 
+    
+                       
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Walk Back and Forth Motion with Torque Minimization Regularization (Bug Fixed)"\>"Walk Back and Forth" Motion with Torque Minimization Regularization (Bug Fixed)</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656582-2c0ed51c-4cbf-4ea2-9c36-49a311dfe5ec.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>  
+    
+    
+<h3>4.3.4 Sim-to-Real Considerations for Motion Design</h3>
+        
+                       
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Phase Only Walking with No Angular Velocity Termination"\> Phase Only Walking with No Angular Velocity Termination</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146656620-e67de863-e65f-4e4d-954b-ce302ce8b851.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>
+                       
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Phase Only Walking with Angular Velocity Termination"\> Phase Only Walking with Angular Velocity Termination</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146656656-1938c0e3-108d-4336-8857-b0623c8acf28.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>    
+                           
+        <details open="" >
+                <summary class="px-3 py-2 border-bottom">
+                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+                <path fill-rule="evenodd" d="..."></path>
+                </svg>
+                <span aria-label="Reference Motion Used for Sine Walk Back and Forth Motion"\> Reference Motion Used for Sine "Walk Back and Forth" Motion</span>
+                <span class="dropdown-caret"></span>
+                </summary>
+        
+                <video src="https://user-images.githubusercontent.com/5961296/146656661-1f14c31a-d6bb-48db-b46f-405eb6c94741.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+                </video>
+            </details><br>    
+    
+    
+    
+                           
+            <details open="" >
+                    <summary class="px-3 py-2 border-bottom">
+                    <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+                    <path fill-rule="evenodd" d="..."></path>
+                    </svg>
+                    <span aria-label="Result of Training Sine Walk Back and Forth Motion"\> Result of Training Sine "Walk Back and Forth" Motion</span>
+                    <span class="dropdown-caret"></span>
+                    </summary>
+            
+                    <video src="https://user-images.githubusercontent.com/5961296/146656662-41a22cf8-c79b-47eb-8ebf-e290f51a617d.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+                    </video>
+                </details><br>        
+    
+                
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Reference Motion Used for Cosine Walk Back and Forth Motion"\>Reference Motion Used for Cosine "Walk Back and Forth" Motion</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146656665-9c66ce24-2216-4eae-a411-afc8881ae65a.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>      
+    
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Result of Training Cosine Walk Back and Forth Motion"\> Result of Training Cosine "Walk Back and Forth" Motion</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146656666-cca9888b-14dc-4e13-8c41-09adfcded4cc.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>        
+    
+    
+<h3>4.3.5 Reference State Initialization</h3>
+                           
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Reference Motion Used for Flipping Motion"\>Reference Motion Used for Flipping Motion</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146657147-226cbeda-7597-442a-9cc5-5aa9cc71a801.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>        
+    
+    
+    
+    
+                           
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Result of Training Flipping Motion using Naive Pseudo-RSI (Failure)"\> Result of Training Flipping Motion using Naive "Pseudo-RSI" (Failure)</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146657150-b6f8cab3-da7e-4170-be60-585842179086.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>        
+    
+    
+    
+    
+    
+    
+<h3>4.3.6 Physical Limitations vs. RL Design Limitations, Preliminary Turning Experiments</h3>
+                           
+<details open="" >
+        <summary class="px-3 py-2 border-bottom">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+        <path fill-rule="evenodd" d="..."></path>
+        </svg>
+        <span aria-label="Reference Motion Used for Turn in Place Motion"\>Reference Motion Used for "Turn in Place" Motion</span>
+        <span class="dropdown-caret"></span>
+        </summary>
+
+        <video src="https://user-images.githubusercontent.com/5961296/146657205-e91776f0-00b0-4cb1-b3f1-619a0d5c4407.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+        </video>
+    </details><br>    
+
+    
+    
+                           
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Phase Only Turn in Place Motion (Failure)"\> Phase Only "Turn in Place" Motion (Failure)</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146657212-76b61d15-1ce6-4af1-946e-9fc3af533e2e.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>        
+                 
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Phase Only Turn in Place Motion with No Position and Angular Velocity Error Termination (Failure)"\> Phase Only "Turn in Place" Motion with No Position and Angular Velocity Error Termination (Failure)</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146657220-df7a56c0-c720-424a-be0a-be32bd62d82a.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>        
+           
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Reference Motion used for Circular Walk Motion"\>Reference Motion used for "Circular Walk" Motion</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146657223-be2309c4-5b21-465f-8b35-0c4b959067e9.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>        
+    
+    
+                           
+    <details open="" >
+            <summary class="px-3 py-2 border-bottom">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-camera-video">
+            <path fill-rule="evenodd" d="..."></path>
+            </svg>
+            <span aria-label="Phase Only Circular Walk Motion (Failure)"\>Phase Only "Circular Walk" Motion (Failure)</span>
+            <span class="dropdown-caret"></span>
+            </summary>
+    
+            <video src="https://user-images.githubusercontent.com/5961296/146657226-7bd0fdc3-0fa7-4e86-92ba-f3c430c8dd3d.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+            </video>
+        </details><br>        
+    
 
   </div>
 </body>
