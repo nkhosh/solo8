@@ -138,28 +138,30 @@ https://user-images.githubusercontent.com/5961296/146657150-b6f8cab3-da7e-4170-b
 ## 4.3.6 Physical Limitations vs. RL Design Limitations, Preliminary Turning Experiments
 Reference Motion Used for "Turn in Place" Motion
 
-https://user-images.githubusercontent.com/5961296/146657205-e91776f0-00b0-4cb1-b3f1-619a0d5c4407.mp4
+https://user-images.githubusercontent.com/5961296/147398323-6ae7730c-362a-429a-90b8-8df6217690a9.mp4
 
 
 Phase Only "Turn in Place" Motion (Failure)
 
-https://user-images.githubusercontent.com/5961296/146657212-76b61d15-1ce6-4af1-946e-9fc3af533e2e.mp4
+https://user-images.githubusercontent.com/5961296/147398337-c89a42c0-2e34-4111-99b9-13036b2919f8.mp4
+
 
 
 Phase Only "Turn in Place" Motion with No Position and Angular Velocity Error Termination (Failure)
 
-https://user-images.githubusercontent.com/5961296/146657220-df7a56c0-c720-424a-be0a-be32bd62d82a.mp4
+https://user-images.githubusercontent.com/5961296/147398339-6dd799b1-6df8-4d91-a63b-0ec1f11315fd.mp4
+
 
 
 Reference Motion used for "Circular Walk" Motion
 
-https://user-images.githubusercontent.com/5961296/146657223-be2309c4-5b21-465f-8b35-0c4b959067e9.mp4
+https://user-images.githubusercontent.com/5961296/147398341-ab8861d0-33ac-4923-b5a8-d36324c2f21f.mp4
+
 
 
 Phase Only "Circular Walk" Motion (Failure)
 
-https://user-images.githubusercontent.com/5961296/146657226-7bd0fdc3-0fa7-4e86-92ba-f3c430c8dd3d.mp4
-
+https://user-images.githubusercontent.com/5961296/147398349-1c528053-7284-4216-8d64-46cd124b4a2a.mp4
 
 
 
